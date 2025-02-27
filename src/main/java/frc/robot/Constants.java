@@ -153,7 +153,7 @@ public final class Constants {
 
         public static final double maxAttainableSpeedMetersPerSec = Units.feetToMeters(20.1 * 0.9);
         public static final double maxAttainableRotationRadPerSec = 13.4;
-
+// changed this to 0 
         public static final double skewCompensationRatioOmegaPerTheta = 0;
 
         // Tune the below PID values using the SysID routines.
@@ -321,11 +321,11 @@ public final class Constants {
 
         public static final double degPerEncRev = 360.0 / gearRatio;
         public static final double degPerSecPerRPM = 360.0 / (60.0 * gearRatio);
-
+// changed the free speed RPM
         public static final double freeSpeedRPM = 5676.0 / gearRatio;
 
         public static final double maxVelDegPerSec = 150.0; // 400.0
-
+// changed this to be slower
         public static final double maxAccelDegPerSecSq = 50.0; // 575.0 700.0
 
         public static final double climbingPresetDeg = 50.0;

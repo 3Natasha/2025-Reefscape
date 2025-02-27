@@ -37,6 +37,7 @@ public class ClimberSys extends SubsystemBase {
         rightClimberEnc = rightClimberMtr.getEncoder();
         
         leftClimberSparkMaxConfig.inverted(true);
+        // added motor breaking
         leftClimberSparkMaxConfig.idleMode(com.revrobotics.spark.config.SparkBaseConfig.IdleMode.kBrake);
         leftClimberSparkMaxConfig.encoder.positionConversionFactor(ClimberConstants.degPerEncRev);
         leftClimberSparkMaxConfig.encoder.velocityConversionFactor(ClimberConstants.degPerSecPerRPM);
