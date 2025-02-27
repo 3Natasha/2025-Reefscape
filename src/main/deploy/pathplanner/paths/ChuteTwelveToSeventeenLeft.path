@@ -1,0 +1,71 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.4913651315789471,
+        "y": 0.7824835526315792
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.7437682906558918,
+        "y": 0.9698688475147215
+      },
+      "isLocked": false,
+      "linkedName": "ChuteTwelve"
+    },
+    {
+      "anchor": {
+        "x": 3.7909539473684206,
+        "y": 2.928125
+      },
+      "prevControl": {
+        "x": 3.3929217789744732,
+        "y": 2.603724211543109
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "SeventeenLeft"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.6996855345911962,
+      "rotationDegrees": 59.99999999999999
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "ElevatorUp",
+      "waypointRelativePos": 0.7504488330341106,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "ElevatorUp"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 1.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 59.99999999999999
+  },
+  "reversed": false,
+  "folder": "TwoPieceRightPaths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 55.0
+  },
+  "useDefaultConstraints": true
+}
