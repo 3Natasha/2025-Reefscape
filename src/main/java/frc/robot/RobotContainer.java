@@ -160,7 +160,7 @@ public class RobotContainer {
 		operatorController.a().onTrue(new ElevatorCoralOneCmd(elevatorSys));
 		operatorController.b().onTrue(new ElevatorCoralTwoCmd(elevatorSys));
 		operatorController.y().onTrue(new ElevatorCoralThreeCmd(elevatorSys));
-
+  
 		// pivot troubleshooting
 		// operatorController.a().onTrue(new PivotGroundCmd(pivotSys));
 		// operatorController.b().onTrue(new PivotProcessorCmd(pivotSys));

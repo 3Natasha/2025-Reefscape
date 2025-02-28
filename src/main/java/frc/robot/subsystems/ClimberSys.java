@@ -84,7 +84,8 @@ public class ClimberSys extends SubsystemBase {
         leftClimberMtr.set(climberController.calculate(getLeftCurrentPositionDeg(), targetDeg));
         rightClimberMtr.set(climberController.calculate(getLeftCurrentPositionDeg(), targetDeg));
         SmartDashboard.putNumber("climber target position", targetDeg);
-        SmartDashboard.putNumber("climber target power", leftClimberMtr.get());
+        SmartDashboard.putNumber("climber left target power", leftClimberMtr.get());
+        SmartDashboard.putNumber("climber right target power", rightClimberMtr.get());
     }
         
     public double getCurrentPositionDeg() {
